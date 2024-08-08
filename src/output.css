@@ -796,6 +796,11 @@ video {
   max-width: 100%;
 }
 
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
